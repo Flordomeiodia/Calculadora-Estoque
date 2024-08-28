@@ -4,7 +4,5 @@
 def Subtração():
     X = float(input("Digite o primeiro número da conta:"))
     Y = float(input("Digite o segundo número da conta:"))
-    resultado_Subtração: X-Y 
-    print("O Resultado da sua subtração é : ", resultado_Subtração)
-
-    subtração()
+    resultado_Subtração: X - Y 
+    print ('O Resultado da sua subtração é:{} '.format(resultado_Subtração))
