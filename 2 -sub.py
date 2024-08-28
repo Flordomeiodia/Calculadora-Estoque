@@ -1,6 +1,10 @@
 #fazendo conta de subtração
 #Na teoria é Num1 - Num2 = resultado
-def soma():
+
+def Subtração():
     X = float(input("Digite o primeiro número da conta:"))
     Y = float(input("Digite o segundo número da conta:"))
-    print("O Resultado da sua subtração é : ", X-Y)
+    resultado_Subtração: X-Y 
+    print("O Resultado da sua subtração é : ", resultado_Subtração)
+
+    subtração()
