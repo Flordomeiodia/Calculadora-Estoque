@@ -1,4 +1,4 @@
-def funcao_calculadora (soma, subtracao, multiplicar, dividir, calcular_resto_divisao  ):
+def funcao_calculadora (soma, subtracao, multiplicar, dividir, calcular_resto_divisao):
     while(True):
         try:
             print('Bem-vindo ao menu da calculadora, digite o número: ')
@@ -28,4 +28,5 @@ def funcao_calculadora (soma, subtracao, multiplicar, dividir, calcular_resto_di
                 print('Opção inválida. Digite um número ente 0 e 4.')
         except:
             print('Opção inválida. Digite um número ente 0 e 4.')
-    
+
+funcao_calculadora(soma, subtracao, multiplicar, dividir, calcular_resto_divisao)
