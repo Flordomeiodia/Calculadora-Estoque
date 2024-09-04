@@ -1,4 +1,6 @@
-def funcao_calculadora (soma, subtracao, multiplicar, dividir, calcular_resto_divisao):
+import somar, sub, mult, div, restoDiv
+
+def funcao_calculadora ():
     while(True):
         try:
             print('Bem-vindo ao menu da calculadora, digite o número: ')
@@ -12,15 +14,15 @@ def funcao_calculadora (soma, subtracao, multiplicar, dividir, calcular_resto_di
             opcao = int(input('Digite o número que representa a sua escolha: '))
 
             if(opcao == 1):
-                soma()
+                somar.soma()
             elif(opcao == 2):
-                subtracao()
+                sub.subtracao()
             elif(opcao == 3):
-                multiplicar()
+                mult.multiplicar()
             elif(opcao == 4):
-                dividir()
+                div.dividir()
             elif(opcao == 5):
-                calcular_resto_divisao()
+                restoDiv.calcular_resto_divisao()
             elif(opcao == 0):
                 print('Você saiu do sitema de estoque da loja.')
                 break
@@ -29,4 +31,4 @@ def funcao_calculadora (soma, subtracao, multiplicar, dividir, calcular_resto_di
         except:
             print('Opção inválida. Digite um número ente 0 e 4.')
 
-funcao_calculadora(soma, subtracao, multiplicar, dividir, calcular_resto_divisao)
+funcao_calculadora()
