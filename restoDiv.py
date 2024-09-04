@@ -12,5 +12,3 @@ def calcular_resto_divisao():
     except ValueError as e:
         print('Ops! Isso não é um número. Por favor digite um número válido.')
         print(e)
-
-calcular_resto_divisao() 
